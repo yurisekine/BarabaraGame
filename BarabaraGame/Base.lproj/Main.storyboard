@@ -179,12 +179,12 @@
                                     <action selector="toTop" destination="XPO-xt-Kg9" eventType="touchUpInside" id="1P2-Sm-r65"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tail.png" id="OK1-9u-aCD">
-                                <rect key="frame" x="162" y="58" width="50" height="80"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bara1.jpg" id="OK1-9u-aCD">
+                                <rect key="frame" x="146" y="78" width="82" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tail.png" id="azJ-3t-qsi">
-                                <rect key="frame" x="162" y="146" width="50" height="80"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bara2.jpg" id="azJ-3t-qsi">
+                                <rect key="frame" x="147" y="136" width="81" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bar.png" id="lrg-BR-8gn">
@@ -192,11 +192,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bar.png" id="2ek-9u-EkU">
-                                <rect key="frame" x="0.0" y="228" width="375" height="5"/>
+                                <rect key="frame" x="0.0" y="199" width="375" height="5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tail.png" id="BaS-fB-3Yq">
-                                <rect key="frame" x="162" y="234" width="50" height="80"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bara3.jpg" id="BaS-fB-3Yq">
+                                <rect key="frame" x="144" y="204" width="88" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -217,6 +217,8 @@
     </scenes>
     <resources>
         <image name="bar.png" width="546" height="6"/>
-        <image name="tail.png" width="74" height="74"/>
+        <image name="bara1.jpg" width="575" height="382"/>
+        <image name="bara2.jpg" width="575" height="382"/>
+        <image name="bara3.jpg" width="575" height="382"/>
     </resources>
 </document>

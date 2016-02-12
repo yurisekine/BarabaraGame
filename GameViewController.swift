@@ -56,9 +56,9 @@ class GameViewController: UIViewController {
             resultLabel.text = "Score:" + String(score) //結果ラベルにスコアを表示する
             resultLabel.hidden = false //結果ラベルを隠さない(現す)
         }
-        var highScore1: Int = defaults.integerForKey("score1") //ユーザーデフォルトに"score1"というキーの値を取得
-        var highScore2: Int = defaults.integerForKey("score2")
-        var highScore3: Int = defaults.integerForKey("score3")
+        let highScore1: Int = defaults.integerForKey("score1") //ユーザーデフォルトに"score1"というキーの値を取得
+        let highScore2: Int = defaults.integerForKey("score2")
+        let highScore3: Int = defaults.integerForKey("score3")
         
         if score > highScore1 { //ランキング１位の記録を更新したら
             defaults.setInteger(score, forKey: "score1") //"score1"というキーでscoreを保存
